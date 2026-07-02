@@ -15,7 +15,7 @@ function PlayerInput({ addPlayer }) {
 
   return (
     <div className="player-input-card">
-      <h2>Lägg till spelare</h2>
+      <h2>Add Players</h2>
       
       <form className="player-form" onSubmit={handleSubmit}>
         <input
