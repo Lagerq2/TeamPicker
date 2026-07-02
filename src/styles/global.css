@@ -1,0 +1,36 @@
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-main);
+  color: var(--text-main);
+}
+
+/* Enkel container för att centrera innehållet under din navbar */
+.app-container {
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.pick-teams-btn {
+  display: block;
+  width: 100%;
+  max-width: 200px;
+  margin: 1rem 0;
+  padding: 0.75rem 1.5rem;
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  border-radius: var(--radius);
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.pick-teams-btn:hover {
+  background-color: var(--primary-hover);
+  transform: translateY(-1px);
+}

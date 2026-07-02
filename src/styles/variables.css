@@ -1,0 +1,13 @@
+:root {
+  --bg-main: #0f172a;       /* Mörkblå/svart bakgrund */
+  --bg-card: #1e293b;       /* Lite ljusare mörkgrå för kort/paneler */
+  --bg-input: #334155;      /* Färg för inputfält */
+  --text-main: #f8fafc;     /* Vit text */
+  --text-muted: #94a3b8;    /* Grå text för mindre viktiga saker */
+  --primary: #6366f1;       /* Modern indigo/lila för knappar */
+  --primary-hover: #4f46e5; /* Mörkare lila vid hover */
+  --danger: #f43f5e;        /* Röd för tabort-knappar */
+  --danger-hover: #e11d48;  
+  --radius: 12px;           /* Rundade hörn på allt */
+  --transition: all 0.2s ease-in-out;
+}
