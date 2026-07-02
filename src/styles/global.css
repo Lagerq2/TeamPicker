@@ -3,8 +3,13 @@ body {
   background-color: var(--bg-main);
   color: var(--text-main);
 }
+.teams {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
 
-/* Enkel container för att centrera innehållet under din navbar */
+/* Enkel container för att centrera innehållet under navbar */
 .app-container {
   max-width: 650px;
   margin: 0 auto;

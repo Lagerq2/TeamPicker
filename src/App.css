@@ -7,3 +7,8 @@
   flex-direction: column;
   gap: 20px;
 }
+.teams {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
