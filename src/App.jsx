@@ -28,8 +28,6 @@ function App() {
 
       <main className="app-container">
 
-        <h2>Team Picker</h2>
-
         <PlayerInput addPlayer={addPlayer} />
 
         <PlayerList players={players} />
