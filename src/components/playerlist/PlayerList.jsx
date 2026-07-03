@@ -1,6 +1,6 @@
 import "./PlayerList.css";
 
-function PlayerList({ players }) {
+function PlayerList({ players, removePlayer }) {
   return (
     <div className="player-list-section">
       <h2>Spelare ({players.length})</h2>
@@ -13,7 +13,11 @@ function PlayerList({ players }) {
         {players.map((player, index) => (
           <li key={index} className="player-li">
             <span>{player}</span>
-            <button className="delete-player-btn">Ta bort</button>
+            <button className="delete-player-btn"
+              onClick={() => removePlayer(index)}
+            >
+              Ta bort
+            </button>
           </li>
         ))}
       </ul>

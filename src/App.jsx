@@ -13,6 +13,10 @@ function App() {
     setPlayers([...players, player]);
   };
 
+  const deletePlayer = (indexToRemove) => {
+    setPlayers(players.filter((_, index) => index !== indexToRemove));
+  }
+
   const pickTeams = () => {
     const shuffledPlayers = [...players].sort(() => Math.random() - 0.5);
 
@@ -30,7 +34,7 @@ function App() {
 
         <PlayerInput addPlayer={addPlayer} />
 
-        <PlayerList players={players} />
+        <PlayerList players={players} removePlayer={deletePlayer} />
 
         <button className="pick-teams-btn" onClick={pickTeams}>
           Pick Teams
